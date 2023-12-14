@@ -91,7 +91,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 
 }
 
@@ -100,6 +100,11 @@ li {
 .section-three {
     background-color: lightcoral;
     height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
 }
 
