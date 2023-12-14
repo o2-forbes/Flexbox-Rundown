@@ -36,7 +36,7 @@ ul {
     margin-left: auto;
 }
 
-button {
+li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     margin: 0px 3px;
@@ -160,3 +160,23 @@ figcaption {
     font-size: 20px;
 }
 
+button {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+button:active {
+    background-color: darkgreen;
+    box-shadow: 0 5px darkred; 
+    transform: translateY(4px);
+}
